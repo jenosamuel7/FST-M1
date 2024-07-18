@@ -1,0 +1,72 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\003SM0744\Desktop\Git> git clone git@github.com:SenthilkumarSChn/FST-M1.git
+Cloning into 'FST-M1'...
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+remote: Enumerating objects: 369, done.
+remote: Counting objects: 100% (141/141), done.
+remote: Compressing objects: 100% (78/78), done.
+remote: Total 369 (delta 65), reused 108 (delta 55), pack-reused 228
+Receiving objects: 100% (369/369), 686.35 KiB | 784.00 KiB/s, done.
+Resolving deltas: 100% (140/140), done.
+PS C:\Users\003SM0744\Desktop\Git> cd.\FST-M1
+cd.\FST-M1 : The term 'cd.\FST-M1' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cd.\FST-M1
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (cd.\FST-M1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\003SM0744\Desktop\Git> cd .\FST-M1
+PS C:\Users\003SM0744\Desktop\Git\FST-M1> git add .
+PS C:\Users\003SM0744\Desktop\Git\FST-M1> git commit -m "uploaded files"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\003SM0744\Desktop\Git\FST-M1> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\003SM0744\Desktop\Git\FST-M1> cd .
+PS C:\Users\003SM0744\Desktop\Git\FST-M1> cd..
+PS C:\Users\003SM0744\Desktop\Git> cd .\FST-M1
+PS C:\Users\003SM0744\Desktop\Git\FST-M1> git add .
+PS C:\Users\003SM0744\Desktop\Git\FST-M1> git commit -m "deleted Junit files"
+[main e035ff0] deleted Junit files
+ Committer: Senthilkumar S <senthilkumar.s@ibm.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 81 deletions(-)
+ delete mode 100644 JUnit/Activities/Activity1.java
+ delete mode 100644 JUnit/Activities/Activity2.java
+PS C:\Users\003SM0744\Desktop\Git\FST-M1> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 340 bytes | 340.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:SenthilkumarSChn/FST-M1.git
+   27b09ce..e035ff0  main -> main
+PS C:\Users\003SM0744\Desktop\Git\FST-M1>
