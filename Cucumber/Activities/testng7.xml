@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="FSTTests">
+ <test name="Activities">
+    <classes>
+      <class name="Activities.Activity7"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
